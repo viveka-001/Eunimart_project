@@ -1,0 +1,54 @@
+
+body{
+    margin: 0;
+}
+.maindiv{
+  
+    height: 100vh;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#fe1692,#ffb983);
+    height: 80px;
+    padding: 0 30px;
+
+}
+
+h1{
+    display: inline;
+}
+
+button{
+    border: 0;
+    width: 120px;
+    height: 50px;
+    background-color: lightpink;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+    color:white;
+}
+
+#user-list{
+    padding: 150px 320px;
+    padding-right: 50px;
+    display: grid;
+    grid-row-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    /* background-color: black; */
+}
+
+.single-div{
+    background: linear-gradient(#fe1692,#ffb983);
+    margin-top: 10px;
+    width: fit-content;
+    padding: 10px 15px;
+    text-align: center;
+    cursor: pointer;
+}

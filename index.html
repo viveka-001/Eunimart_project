@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="maindiv">
+        <div class="leftdiv">
+            <img src="images/backgroundenui.png" alt="">
+        </div>
+        <div class="rightdiv">
+            <div class="greet">
+                <h1>Hello!</h1>
+                <h2>Welcome</h2>
+            </div>
+               <div class="inputbox">
+                   
+                   <input type="text"  placeholder = "Name"name="" id="name">
+                   
+                   <input type="text" placeholder = "PhoneNo"name="" id="phone">
+                   
+                   <input type="text" placeholder = "Email"name="" id="mail">
+                </div>
+                <button type="submit" onclick="calculate()">
+                    Log In
+                </button>
+        </div>
+    </div>
+
+    <script>
+        function calculate()
+    {
+        
+    let name=document.getElementById("name").value;
+    let phone=document.getElementById("phone").value;
+    let mail=document.getElementById("mail").value;
+   
+    console.log(name + " " + phone + " "+ mail);
+    if(name==="" || phone==="" || mail==="")
+    alert("please fill all the details :)");
+    else{
+        
+        window.location.href= "home.html";
+    }
+}
+    </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+}
+
+.mainui{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#fe1692,#ffb983);
+    height: 80px;
+    width: 100vw;
+    padding: 0 30px;
+}
+
+.centerbox{
+    width: 400px;
+    height: 600px;
+    background: linear-gradient(#fe1692,#ffb983);
+    border-radius: 3%;
+}
+
+.single-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+}
+
+#user-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 10px;
+    
+}
+
+.image{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.email{
+    font-size: 20px;
+    margin-top: 10px;
+}
